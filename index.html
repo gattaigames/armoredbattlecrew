@@ -24,6 +24,11 @@
 </head>
 
 <body>
+  <div class="fullscreen-container">
+    <video loop muted autoplay poster="images/bg.gif" class="fullscreen-bg">
+        <source src="images/bg.mp4" type="video/mp4">
+    </video>
+  </div>
   <!-- Start Header-->
   <div id="header">
     <div id="headerSocial">
@@ -60,10 +65,14 @@
   <!--End Header-->
 
   <div id="centerDIV">
-    <div style="height:5em;"></div>
-    <div id="logoDIV">
-      <div id="logo"></div>
+    <div style="height:8em;"></div>
+
+    <div id="steamDIV">
+      <div class="steam-container">
+        <iframe src="https://store.steampowered.com/widget/814740/" frameborder="0" width="646" height="190"></iframe>
+      </div>
     </div>
+
     <!--
     <center>An echolocation-based FPS from the creators of <a href="http://stifledgame.com" target="_blank">Stifled</a>.</center>
     <div id="itchDIV">
@@ -71,16 +80,13 @@
 <iframe frameborder="0" src="https://itch.io/embed/242081?border_width=0&amp;bg_color=000000&amp;fg_color=ffffff&amp;border_color=ffffff" width="550" height="165"></iframe>      </div>
     </div>
     -->
-<!--
-    <div id="steamDIV">
-      <div class="steam-container">
-        <iframe src="https://store.steampowered.com/widget/814740/" frameborder="0" width="646" height="190"></iframe>
-      </div>
-    </div>
 
-    <div style="height:27em;"></div>
--->
-    <div style="height:37em;"></div>
+
+    <div style="height:20em;"></div>
+
+    <div id="logoDIV">
+      <div id="logo"></div>
+    </div>
 <!--
     <div id="videoDIV">
       <div class="video-container">

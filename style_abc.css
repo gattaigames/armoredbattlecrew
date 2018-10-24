@@ -52,7 +52,7 @@ body
 
 #logoDIV
 {
-	margin: auto 3em 0 auto;
+	margin: auto 3em -1em auto;
 	width: 100%;
 	max-width: 200px;
 	background-color: transparent;

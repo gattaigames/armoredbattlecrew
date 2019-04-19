@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: armoredbattlecrew.com
+Token: 590196c1d17d3ca8276b3af5edacf5c3c4a58a87f1ac156bd818872d90a60415
